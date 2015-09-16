@@ -1,0 +1,5 @@
+python sdk downloaded only for examples directory
+    https://www.dropbox.com/developers/core/sdks/python
+
+dropbox api installed via pip install dropbox
+see cli_client.py for example, modify with your drop box creds.

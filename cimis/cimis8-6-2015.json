@@ -1,0 +1,4811 @@
+{
+    "et-xml": {
+        "data": {
+            "provider": {
+                "record": [
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.06"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "290"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.3"
+                        },
+                        "_date": "2015-01-01",
+                        "_julian": "1",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.05"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "290"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3"
+                        },
+                        "_date": "2015-01-02",
+                        "_julian": "2",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.05"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "280"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3"
+                        },
+                        "_date": "2015-01-03",
+                        "_julian": "3",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.05"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "285"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "2.9"
+                        },
+                        "_date": "2015-01-04",
+                        "_julian": "4",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.08"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "293"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "2.8"
+                        },
+                        "_date": "2015-01-05",
+                        "_julian": "5",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.09"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "297"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "2.5"
+                        },
+                        "_date": "2015-01-06",
+                        "_julian": "6",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.08"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "280"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "2.6"
+                        },
+                        "_date": "2015-01-07",
+                        "_julian": "7",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.07"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "268"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "2.9"
+                        },
+                        "_date": "2015-01-08",
+                        "_julian": "8",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.06"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "267"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "2.7"
+                        },
+                        "_date": "2015-01-09",
+                        "_julian": "9",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.04"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "142"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "2.7"
+                        },
+                        "_date": "2015-01-10",
+                        "_julian": "10",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.04"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "222"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "2.6"
+                        },
+                        "_date": "2015-01-11",
+                        "_julian": "11",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.05"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "298"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.1"
+                        },
+                        "_date": "2015-01-12",
+                        "_julian": "12",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.07"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "300"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.2"
+                        },
+                        "_date": "2015-01-13",
+                        "_julian": "13",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.08"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "306"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.2"
+                        },
+                        "_date": "2015-01-14",
+                        "_julian": "14",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.09"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "310"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.5"
+                        },
+                        "_date": "2015-01-15",
+                        "_julian": "15",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.08"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "310"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.2"
+                        },
+                        "_date": "2015-01-16",
+                        "_julian": "16",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.09"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "315"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "2.9"
+                        },
+                        "_date": "2015-01-17",
+                        "_julian": "17",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.07"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "292"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "2.8"
+                        },
+                        "_date": "2015-01-18",
+                        "_julian": "18",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.07"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "270"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.2"
+                        },
+                        "_date": "2015-01-19",
+                        "_julian": "19",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.06"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "249"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.4"
+                        },
+                        "_date": "2015-01-20",
+                        "_julian": "20",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.08"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "325"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.3"
+                        },
+                        "_date": "2015-01-21",
+                        "_julian": "21",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.09"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "277"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.1"
+                        },
+                        "_date": "2015-01-22",
+                        "_julian": "22",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.1"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "331"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.4"
+                        },
+                        "_date": "2015-01-23",
+                        "_julian": "23",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.13"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "333"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.7"
+                        },
+                        "_date": "2015-01-24",
+                        "_julian": "24",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.12"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "330"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.6"
+                        },
+                        "_date": "2015-01-25",
+                        "_julian": "25",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.1"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "173"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.6"
+                        },
+                        "_date": "2015-01-26",
+                        "_julian": "26",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.07"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "332"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.1"
+                        },
+                        "_date": "2015-01-27",
+                        "_julian": "27",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.07"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "236"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "2.8"
+                        },
+                        "_date": "2015-01-28",
+                        "_julian": "28",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.09"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "311"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3"
+                        },
+                        "_date": "2015-01-29",
+                        "_julian": "29",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.07"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "316"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.3"
+                        },
+                        "_date": "2015-01-30",
+                        "_julian": "30",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.08"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "352"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.5"
+                        },
+                        "_date": "2015-01-31",
+                        "_julian": "31",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.09"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "353"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.2"
+                        },
+                        "_date": "2015-02-01",
+                        "_julian": "32",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.09"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "355"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3"
+                        },
+                        "_date": "2015-02-02",
+                        "_julian": "33",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.08"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "318"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.1"
+                        },
+                        "_date": "2015-02-03",
+                        "_julian": "34",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.06"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "295"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.2"
+                        },
+                        "_date": "2015-02-04",
+                        "_julian": "35",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.07"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "311"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.4"
+                        },
+                        "_date": "2015-02-05",
+                        "_julian": "36",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.06"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "288"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.7"
+                        },
+                        "_date": "2015-02-06",
+                        "_julian": "37",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.03"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "103"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.7"
+                        },
+                        "_date": "2015-02-07",
+                        "_julian": "38",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.07"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "251"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.6"
+                        },
+                        "_date": "2015-02-08",
+                        "_julian": "39",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.08"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "385"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.5"
+                        },
+                        "_date": "2015-02-09",
+                        "_julian": "40",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.12"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "391"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.3"
+                        },
+                        "_date": "2015-02-10",
+                        "_julian": "41",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.13"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "394"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.5"
+                        },
+                        "_date": "2015-02-11",
+                        "_julian": "42",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.14"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "398"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.4"
+                        },
+                        "_date": "2015-02-12",
+                        "_julian": "43",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.15"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "402"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.6"
+                        },
+                        "_date": "2015-02-13",
+                        "_julian": "44",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.13"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "397"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.5"
+                        },
+                        "_date": "2015-02-14",
+                        "_julian": "45",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.09"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "401"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.3"
+                        },
+                        "_date": "2015-02-15",
+                        "_julian": "46",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.05"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "280"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.6"
+                        },
+                        "_date": "2015-02-16",
+                        "_julian": "47",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.06"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "254"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.2"
+                        },
+                        "_date": "2015-02-17",
+                        "_julian": "48",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.08"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "373"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.2"
+                        },
+                        "_date": "2015-02-18",
+                        "_julian": "49",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.06"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "276"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.3"
+                        },
+                        "_date": "2015-02-19",
+                        "_julian": "50",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.07"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "296"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.1"
+                        },
+                        "_date": "2015-02-20",
+                        "_julian": "51",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.08"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "334"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.9"
+                        },
+                        "_date": "2015-02-21",
+                        "_julian": "52",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.06"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "250"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.1"
+                        },
+                        "_date": "2015-02-22",
+                        "_julian": "53",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.09"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "410"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4"
+                        },
+                        "_date": "2015-02-23",
+                        "_julian": "54",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.12"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "440"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.4"
+                        },
+                        "_date": "2015-02-24",
+                        "_julian": "55",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.1"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "440"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.7"
+                        },
+                        "_date": "2015-02-25",
+                        "_julian": "56",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.1"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "430"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.5"
+                        },
+                        "_date": "2015-02-26",
+                        "_julian": "57",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.1"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "424"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "5.9"
+                        },
+                        "_date": "2015-02-27",
+                        "_julian": "58",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.09"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "411"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.9"
+                        },
+                        "_date": "2015-02-28",
+                        "_julian": "59",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.09"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "447"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3"
+                        },
+                        "_date": "2015-03-01",
+                        "_julian": "60",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.07"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "331"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "2.9"
+                        },
+                        "_date": "2015-03-02",
+                        "_julian": "61",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.1"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "461"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.8"
+                        },
+                        "_date": "2015-03-03",
+                        "_julian": "62",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.12"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "469"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.3"
+                        },
+                        "_date": "2015-03-04",
+                        "_julian": "63",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.14"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "469"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.4"
+                        },
+                        "_date": "2015-03-05",
+                        "_julian": "64",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.17"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "474"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4"
+                        },
+                        "_date": "2015-03-06",
+                        "_julian": "65",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.17"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "477"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.8"
+                        },
+                        "_date": "2015-03-07",
+                        "_julian": "66",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.11"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "478"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.8"
+                        },
+                        "_date": "2015-03-08",
+                        "_julian": "67",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.1"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "459"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.8"
+                        },
+                        "_date": "2015-03-09",
+                        "_julian": "68",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.09"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "388"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.2"
+                        },
+                        "_date": "2015-03-10",
+                        "_julian": "69",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.06"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "185"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.7"
+                        },
+                        "_date": "2015-03-11",
+                        "_julian": "70",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.17"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "493"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.8"
+                        },
+                        "_date": "2015-03-12",
+                        "_julian": "71",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.19"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "487"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.2"
+                        },
+                        "_date": "2015-03-13",
+                        "_julian": "72",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.19"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "490"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.5"
+                        },
+                        "_date": "2015-03-14",
+                        "_julian": "73",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.16"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "425"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.3"
+                        },
+                        "_date": "2015-03-15",
+                        "_julian": "74",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.15"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "460"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.5"
+                        },
+                        "_date": "2015-03-16",
+                        "_julian": "75",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.1"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "267"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.8"
+                        },
+                        "_date": "2015-03-17",
+                        "_julian": "76",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.13"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "497"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.3"
+                        },
+                        "_date": "2015-03-18",
+                        "_julian": "77",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.12"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "506"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.1"
+                        },
+                        "_date": "2015-03-19",
+                        "_julian": "78",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.11"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "462"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4"
+                        },
+                        "_date": "2015-03-20",
+                        "_julian": "79",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.11"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "484"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.3"
+                        },
+                        "_date": "2015-03-21",
+                        "_julian": "80",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.11"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "484"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.7"
+                        },
+                        "_date": "2015-03-22",
+                        "_julian": "81",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.14"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "518"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "5"
+                        },
+                        "_date": "2015-03-23",
+                        "_julian": "82",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.18"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "520"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "5.2"
+                        },
+                        "_date": "2015-03-24",
+                        "_julian": "83",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.19"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "529"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "5.1"
+                        },
+                        "_date": "2015-03-25",
+                        "_julian": "84",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.21"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "532"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4"
+                        },
+                        "_date": "2015-03-26",
+                        "_julian": "85",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.15"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "534"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4"
+                        },
+                        "_date": "2015-03-27",
+                        "_julian": "86",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.13"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "540"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.7"
+                        },
+                        "_date": "2015-03-28",
+                        "_julian": "87",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.13"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "541"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.6"
+                        },
+                        "_date": "2015-03-29",
+                        "_julian": "88",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.12"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "523"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.9"
+                        },
+                        "_date": "2015-03-30",
+                        "_julian": "89",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.13"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "543"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.9"
+                        },
+                        "_date": "2015-03-31",
+                        "_julian": "90",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.17"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "558"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "5.5"
+                        },
+                        "_date": "2015-04-01",
+                        "_julian": "91",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.18"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "567"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "5.1"
+                        },
+                        "_date": "2015-04-02",
+                        "_julian": "92",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.2"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "573"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.6"
+                        },
+                        "_date": "2015-04-03",
+                        "_julian": "93",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.16"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "577"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.6"
+                        },
+                        "_date": "2015-04-04",
+                        "_julian": "94",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.14"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "577"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "5.5"
+                        },
+                        "_date": "2015-04-05",
+                        "_julian": "95",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.13"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "572"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "5.4"
+                        },
+                        "_date": "2015-04-06",
+                        "_julian": "96",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.08"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "288"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.7"
+                        },
+                        "_date": "2015-04-07",
+                        "_julian": "97",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.14"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "585"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "5.4"
+                        },
+                        "_date": "2015-04-08",
+                        "_julian": "98",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.15"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "541"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.1"
+                        },
+                        "_date": "2015-04-09",
+                        "_julian": "99",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.13"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "543"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4"
+                        },
+                        "_date": "2015-04-10",
+                        "_julian": "100",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.15"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "590"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.5"
+                        },
+                        "_date": "2015-04-11",
+                        "_julian": "101",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.15"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "594"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.7"
+                        },
+                        "_date": "2015-04-12",
+                        "_julian": "102",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.12"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "535"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.4"
+                        },
+                        "_date": "2015-04-13",
+                        "_julian": "103",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.17"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "598"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.6"
+                        },
+                        "_date": "2015-04-14",
+                        "_julian": "104",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.22"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "603"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "5.4"
+                        },
+                        "_date": "2015-04-15",
+                        "_julian": "105",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.2"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "603"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.3"
+                        },
+                        "_date": "2015-04-16",
+                        "_julian": "106",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.2"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "605"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.6"
+                        },
+                        "_date": "2015-04-17",
+                        "_julian": "107",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.14"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "607"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.5"
+                        },
+                        "_date": "2015-04-18",
+                        "_julian": "108",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.13"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "604"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.5"
+                        },
+                        "_date": "2015-04-19",
+                        "_julian": "109",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.12"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "576"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.4"
+                        },
+                        "_date": "2015-04-20",
+                        "_julian": "110",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.08"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "241"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.4"
+                        },
+                        "_date": "2015-04-21",
+                        "_julian": "111",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.11"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "437"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4"
+                        },
+                        "_date": "2015-04-22",
+                        "_julian": "112",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.13"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "550"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.3"
+                        },
+                        "_date": "2015-04-23",
+                        "_julian": "113",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.14"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "606"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.4"
+                        },
+                        "_date": "2015-04-24",
+                        "_julian": "114",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.11"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "431"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "5.8"
+                        },
+                        "_date": "2015-04-25",
+                        "_julian": "115",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.18"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "644"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "5.3"
+                        },
+                        "_date": "2015-04-26",
+                        "_julian": "116",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.22"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "647"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "5.1"
+                        },
+                        "_date": "2015-04-27",
+                        "_julian": "117",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.18"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "645"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.4"
+                        },
+                        "_date": "2015-04-28",
+                        "_julian": "118",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.17"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "631"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.1"
+                        },
+                        "_date": "2015-04-29",
+                        "_julian": "119",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.18"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "626"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4"
+                        },
+                        "_date": "2015-04-30",
+                        "_julian": "120",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.15"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "643"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.3"
+                        },
+                        "_date": "2015-05-01",
+                        "_julian": "121",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.14"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "658"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.5"
+                        },
+                        "_date": "2015-05-02",
+                        "_julian": "122",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.13"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "613"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.9"
+                        },
+                        "_date": "2015-05-03",
+                        "_julian": "123",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.14"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "633"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.5"
+                        },
+                        "_date": "2015-05-04",
+                        "_julian": "124",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.12"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "469"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.6"
+                        },
+                        "_date": "2015-05-05",
+                        "_julian": "125",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.15"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "596"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "5.2"
+                        },
+                        "_date": "2015-05-06",
+                        "_julian": "126",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.13"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "466"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "5.9"
+                        },
+                        "_date": "2015-05-07",
+                        "_julian": "127",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.11"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "413"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.2"
+                        },
+                        "_date": "2015-05-08",
+                        "_julian": "128",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.15"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "656"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.6"
+                        },
+                        "_date": "2015-05-09",
+                        "_julian": "129",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.16"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "672"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.6"
+                        },
+                        "_date": "2015-05-10",
+                        "_julian": "130",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.15"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "608"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.4"
+                        },
+                        "_date": "2015-05-11",
+                        "_julian": "131",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.15"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "668"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.4"
+                        },
+                        "_date": "2015-05-12",
+                        "_julian": "132",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.14"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "611"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.5"
+                        },
+                        "_date": "2015-05-13",
+                        "_julian": "133",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.09"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "344"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.3"
+                        },
+                        "_date": "2015-05-14",
+                        "_julian": "134",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.15"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "598"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "5.5"
+                        },
+                        "_date": "2015-05-15",
+                        "_julian": "135",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.15"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "652"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "5"
+                        },
+                        "_date": "2015-05-16",
+                        "_julian": "136",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.13"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "500"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.9"
+                        },
+                        "_date": "2015-05-17",
+                        "_julian": "137",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.17"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "697"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "5.6"
+                        },
+                        "_date": "2015-05-18",
+                        "_julian": "138",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.16"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "686"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.6"
+                        },
+                        "_date": "2015-05-19",
+                        "_julian": "139",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.16"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "676"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.7"
+                        },
+                        "_date": "2015-05-20",
+                        "_julian": "140",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.13"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "479"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.7"
+                        },
+                        "_date": "2015-05-21",
+                        "_julian": "141",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.17"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "675"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "5.9"
+                        },
+                        "_date": "2015-05-22",
+                        "_julian": "142",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.16"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "683"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.6"
+                        },
+                        "_date": "2015-05-23",
+                        "_julian": "143",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.16"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "691"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.3"
+                        },
+                        "_date": "2015-05-24",
+                        "_julian": "144",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.15"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "634"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.4"
+                        },
+                        "_date": "2015-05-25",
+                        "_julian": "145",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.12"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "499"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.4"
+                        },
+                        "_date": "2015-05-26",
+                        "_julian": "146",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.15"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "657"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.6"
+                        },
+                        "_date": "2015-05-27",
+                        "_julian": "147",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.16"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "697"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.1"
+                        },
+                        "_date": "2015-05-28",
+                        "_julian": "148",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.15"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "658"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.4"
+                        },
+                        "_date": "2015-05-29",
+                        "_julian": "149",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.15"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "657"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.3"
+                        },
+                        "_date": "2015-05-30",
+                        "_julian": "150",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.12"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "557"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.9"
+                        },
+                        "_date": "2015-05-31",
+                        "_julian": "151",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.16"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "694"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.9"
+                        },
+                        "_date": "2015-06-01",
+                        "_julian": "152",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.16"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "716"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.4"
+                        },
+                        "_date": "2015-06-02",
+                        "_julian": "153",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.14"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "566"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.4"
+                        },
+                        "_date": "2015-06-03",
+                        "_julian": "154",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.15"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "610"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.6"
+                        },
+                        "_date": "2015-06-04",
+                        "_julian": "155",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.16"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "699"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.5"
+                        },
+                        "_date": "2015-06-05",
+                        "_julian": "156",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.16"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "671"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.6"
+                        },
+                        "_date": "2015-06-06",
+                        "_julian": "157",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.17"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "706"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.5"
+                        },
+                        "_date": "2015-06-07",
+                        "_julian": "158",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.15"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "685"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.3"
+                        },
+                        "_date": "2015-06-08",
+                        "_julian": "159",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.08"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "211"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.4"
+                        },
+                        "_date": "2015-06-09",
+                        "_julian": "160",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.13"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "476"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.2"
+                        },
+                        "_date": "2015-06-10",
+                        "_julian": "161",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.12"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "524"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.3"
+                        },
+                        "_date": "2015-06-11",
+                        "_julian": "162",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.14"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "588"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.1"
+                        },
+                        "_date": "2015-06-12",
+                        "_julian": "163",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.13"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "539"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.8"
+                        },
+                        "_date": "2015-06-13",
+                        "_julian": "164",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.14"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "611"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.4"
+                        },
+                        "_date": "2015-06-14",
+                        "_julian": "165",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.16"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "679"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4"
+                        },
+                        "_date": "2015-06-15",
+                        "_julian": "166",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.17"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "717"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4"
+                        },
+                        "_date": "2015-06-16",
+                        "_julian": "167",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.16"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "700"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.3"
+                        },
+                        "_date": "2015-06-17",
+                        "_julian": "168",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.16"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "697"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.1"
+                        },
+                        "_date": "2015-06-18",
+                        "_julian": "169",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.18"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "723"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4"
+                        },
+                        "_date": "2015-06-19",
+                        "_julian": "170",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.19"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "723"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4"
+                        },
+                        "_date": "2015-06-20",
+                        "_julian": "171",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.17"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "716"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4"
+                        },
+                        "_date": "2015-06-21",
+                        "_julian": "172",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.17"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "718"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.2"
+                        },
+                        "_date": "2015-06-22",
+                        "_julian": "173",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.19"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "720"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.2"
+                        },
+                        "_date": "2015-06-23",
+                        "_julian": "174",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.17"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "716"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.3"
+                        },
+                        "_date": "2015-06-24",
+                        "_julian": "175",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.17"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "696"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.1"
+                        },
+                        "_date": "2015-06-25",
+                        "_julian": "176",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.16"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "645"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.9"
+                        },
+                        "_date": "2015-06-26",
+                        "_julian": "177",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.12"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "465"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4"
+                        },
+                        "_date": "2015-06-27",
+                        "_julian": "178",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.18"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "681"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.9"
+                        },
+                        "_date": "2015-06-28",
+                        "_julian": "179",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.19"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "703"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.1"
+                        },
+                        "_date": "2015-06-29",
+                        "_julian": "180",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.2"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "694"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.1"
+                        },
+                        "_date": "2015-06-30",
+                        "_julian": "181",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.13"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "410"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.7"
+                        },
+                        "_date": "2015-07-01",
+                        "_julian": "182",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.16"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "568"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.1"
+                        },
+                        "_date": "2015-07-02",
+                        "_julian": "183",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.16"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "693"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.9"
+                        },
+                        "_date": "2015-07-03",
+                        "_julian": "184",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.16"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "683"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.1"
+                        },
+                        "_date": "2015-07-04",
+                        "_julian": "185",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.14"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "606"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.4"
+                        },
+                        "_date": "2015-07-05",
+                        "_julian": "186",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.15"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "617"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.9"
+                        },
+                        "_date": "2015-07-06",
+                        "_julian": "187",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.17"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "676"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.4"
+                        },
+                        "_date": "2015-07-07",
+                        "_julian": "188",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.16"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "606"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.8"
+                        },
+                        "_date": "2015-07-08",
+                        "_julian": "189",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.17"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "647"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.1"
+                        },
+                        "_date": "2015-07-09",
+                        "_julian": "190",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.18"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "697"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.2"
+                        },
+                        "_date": "2015-07-10",
+                        "_julian": "191",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.19"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "714"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.5"
+                        },
+                        "_date": "2015-07-11",
+                        "_julian": "192",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.19"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "713"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.3"
+                        },
+                        "_date": "2015-07-12",
+                        "_julian": "193",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.18"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "700"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.3"
+                        },
+                        "_date": "2015-07-13",
+                        "_julian": "194",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.17"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "699"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.3"
+                        },
+                        "_date": "2015-07-14",
+                        "_julian": "195",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.16"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "625"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.1"
+                        },
+                        "_date": "2015-07-15",
+                        "_julian": "196",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.15"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "579"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.8"
+                        },
+                        "_date": "2015-07-16",
+                        "_julian": "197",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.16"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "645"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.1"
+                        },
+                        "_date": "2015-07-17",
+                        "_julian": "198",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.16"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "591"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.7"
+                        },
+                        "_date": "2015-07-18",
+                        "_julian": "199",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.2"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "571"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.8"
+                        },
+                        "_date": "2015-07-19",
+                        "_julian": "200",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.18"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "555"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.8"
+                        },
+                        "_date": "2015-07-20",
+                        "_julian": "201",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.14"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "511"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.2"
+                        },
+                        "_date": "2015-07-21",
+                        "_julian": "202",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.13"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "453"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.6"
+                        },
+                        "_date": "2015-07-22",
+                        "_julian": "203",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.14"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "537"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.6"
+                        },
+                        "_date": "2015-07-23",
+                        "_julian": "204",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.19"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "695"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.2"
+                        },
+                        "_date": "2015-07-24",
+                        "_julian": "205",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.19"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "692"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4"
+                        },
+                        "_date": "2015-07-25",
+                        "_julian": "206",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.17"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "680"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.8"
+                        },
+                        "_date": "2015-07-26",
+                        "_julian": "207",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.17"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "666"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.1"
+                        },
+                        "_date": "2015-07-27",
+                        "_julian": "208",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.16"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "621"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.9"
+                        },
+                        "_date": "2015-07-28",
+                        "_julian": "209",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.15"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "632"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.1"
+                        },
+                        "_date": "2015-07-29",
+                        "_julian": "210",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.17"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "645"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.2"
+                        },
+                        "_date": "2015-07-30",
+                        "_julian": "211",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.17"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "652"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.8"
+                        },
+                        "_date": "2015-07-31",
+                        "_julian": "212",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.17"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "669"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.4"
+                        },
+                        "_date": "2015-08-01",
+                        "_julian": "213",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.17"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "635"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.3"
+                        },
+                        "_date": "2015-08-02",
+                        "_julian": "214",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.19"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "660"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4.3"
+                        },
+                        "_date": "2015-08-03",
+                        "_julian": "215",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.19"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "652"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "4"
+                        },
+                        "_date": "2015-08-04",
+                        "_julian": "216",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0.18"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "585"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "3.8"
+                        },
+                        "_date": "2015-08-05",
+                        "_julian": "217",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    },
+                    {
+                        "day-asce-eto": {
+                            "_qc": " ",
+                            "_unit": "(in)",
+                            "__text": "0"
+                        },
+                        "day-sol-rad-avg": {
+                            "_qc": " ",
+                            "_unit": "(Ly/day)",
+                            "__text": "0"
+                        },
+                        "day-wind-spd-avg": {
+                            "_qc": " ",
+                            "_unit": "(MPH)",
+                            "__text": "0"
+                        },
+                        "_date": "2015-08-06",
+                        "_julian": "218",
+                        "_standard": "english",
+                        "_zip-code": "93117",
+                        "_scope": "daily"
+                    }
+                ],
+                "_name": "cimis",
+                "_type": "spatial",
+                "_owner": "water.ca.gov"
+            }
+        },
+        "_xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+        "_xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance"
+    }
+}

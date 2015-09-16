@@ -1,0 +1,67 @@
+curl -v "http://et.water.ca.gov/api/data?appKey=0e1a4d1a-347c-40af-b811-a14958a8eba8&targets=93109,93254,93460,93458,95618,95694,95620,93766,93662&startDate=2015-07-01&endDate=2015-07-01&prioritizeSCS=Y&dataItems=day-asce-eto,day-asce-etr,day-sol-rad-avg"
+
+curl -v "http://et.water.ca.gov/api/data?appKey=0e1a4d1a-347c-40af-b811-a14958a8eba8&targets=93117&startDate=2015-07-01&endDate=2015-07-01"
+
+requested by Stan
+fresno station 1 - inactive
+	station 80 is active, using it instead
+davis station 6 - active
+visalia station 33 - inactive 93277,8,9; 93290,1,2
+	86,169,203 are alternatives, visalia is near/north of tulare on the 99
+ 	86 lindcove: 93286 , 93221 
+	169: porterville: 93270 , 93267 , 93258 , 93257 , 93247 , 93218 
+others: new cuyama - covered by cuyama 88
+
+93109,93199,93117,93254,93460,93458,95618,95694,95620,93766,93662
+-----------------------
+http://et.water.ca.gov/Rest/Index
+http://www.cimis.water.ca.gov/Stations.aspx
+fresno: 80, parlier: 39
+93766		93662
+davis: 6, winters: 139, dixon: 121
+95618  95694	95620
+goleta: 94, 107, sb: 230
+93117	93199 	93109
+santa ynez: 64 sisquoc: 165
+93460	93458
+cuyuma: 88
+93254
+visalia --> lindcove: 86 (93286) porterville: 169 (93270)
+all active
+6,39,64,80,86,88,94,107,121,139,165,169,230
+93109,93254,93460,93458,95618,95694,95620,93766,93662
+
+6,39
+95618,93662
+
+
+The CIMIS Web API delivers data over the REST protocol from an enterprise production platform. The system provides reference evapotranspiration (ETo) and weather data from the CIMIS Weather Station Network and the Spatial CIMIS System. Spatial CIMIS provides daily maps of ETo and solar radiation (Rs) data at 2-km grid by coupling remotely sensed satellite data with point measurements from the CIMIS weather stations.
+
+providing data in either JSON or XML formats
+
+This operation returns CIMIS weather data in either JSON (default) or XML. This includes data from the CIMIS Weather Station Network (WSN) and/or the Spatial CIMIS System (SCS). Data requests may be made in the following ways:
+
+WSN data by station number(s)
+WSN or SCS data by zip code(s)
+SCS data by coordinate in decimal degrees
+SCS data by street address(es)
+
+The system then averages ETo and Solar Radiation values for the zip code area using a 2/km grid. Use the Spatial Zip Code List to obtain a distinct list of all zip codes supported by the SCS data provider.
+
+If a zip code request includes hourly data items the system will not return SCS data because the SCS data provider does not support hourly data.
+
+dataItems specifies one-to-many comma delimited data elements to include in your response. See the Data Items section for a complete list of possible data element values.
+Default:
+day-asce-eto, day-precip, day-sol-rad-avg, day-vap-pres-avg, day-air-tmp-max, day-air-tmp-min, day-air-tmp-avg, day-rel-hum-max, day-rel-hum-min, day-rel-hum-avg, day-dew-pnt, day-wind-spd-avg, day-wind-run, day-soil-tmp-avg
+
+------------------------------------
+by zipcode prioritizeSCS=N
+cjkhome:cimis ckrintz$ python cimis.py 
+{u'Data': {u'Providers': [{u'Owner': u'water.ca.gov', u'Records': [{u'ZipCodes': u'95618, 95617, 95616', u'Julian': u'182', u'DayAsceEto': {u'Qc': u' ', u'Unit': u'(in)', u'Value': u'0.29'}, u'DaySolRadAvg': {u'Qc': u' ', u'Unit': u'(Ly/day)', u'Value': u'556'}, u'Standard': u'english', u'DayEto': {u'Qc': u' ', u'Unit': u'(in)', u'Value': u'0.28'}, u'Station': u'6', u'Date': u'2015-07-01', u'Scope': u'daily', u'DaySoilTmpAvg': {u'Qc': u' ', u'Unit': u'(F)', u'Value': u'73.3'}, u'DayAirTmpAvg': {u'Qc': u' ', u'Unit': u'(F)', u'Value': u'82.2'}}, {u'ZipCodes': u'93662, 93657, 93654, 93618, 93161, 93648', u'Julian': u'182', u'DayAsceEto': {u'Qc': u' ', u'Unit': u'(in)', u'Value': u'0.16'}, u'DaySolRadAvg': {u'Qc': u' ', u'Unit': u'(Ly/day)', u'Value': u'264'}, u'Standard': u'english', u'DayEto': {u'Qc': u' ', u'Unit': u'(in)', u'Value': u'0.13'}, u'Station': u'39', u'Date': u'2015-07-01', u'Scope': u'daily', u'DaySoilTmpAvg': {u'Qc': u' ', u'Unit': u'(F)', u'Value': u'80.4'}, u'DayAirTmpAvg': {u'Qc': u' ', u'Unit': u'(F)', u'Value': u'84.9'}}], u'Type': u'station', u'Name': u'cimis'}]}}
+
+by zipcode prioritizeSCS=Y
+cjkhome:cimis ckrintz$ !vi
+vi cimis.py
+cjkhome:cimis ckrintz$ python cimis.py 
+{u'Data': {u'Providers': [{u'Owner': u'water.ca.gov', u'Records': [{u'ZipCodes': u'95618', u'Julian': u'182', u'DayAsceEto': {u'Qc': u' ', u'Unit': u'(in)', u'Value': u'0.28'}, u'DaySolRadAvg': {u'Qc': u' ', u'Unit': u'(Ly/day)', u'Value': u'550'}, u'Standard': u'english', u'Date': u'2015-07-01', u'Scope': u'daily'}, {u'ZipCodes': u'93662', u'Julian': u'182', u'DayAsceEto': {u'Qc': u' ', u'Unit': u'(in)', u'Value': u'0.24'}, u'DaySolRadAvg': {u'Qc': u' ', u'Unit': u'(Ly/day)', u'Value': u'351'}, u'Standard': u'english', u'Date': u'2015-07-01', u'Scope': u'daily'}], u'Type': u'spatial', u'Name': u'cimis'}]}}
+
