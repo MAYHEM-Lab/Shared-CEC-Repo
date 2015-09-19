@@ -6,6 +6,16 @@ requested by Stan
 fresno station 1 - inactive
 	station 80 is active, using it instead
 davis station 6 - active
+	9/19/15 - make sure we are using the right one
+		convert dec to lat,long:
+		http://stevemorse.org/jcal/dms.html
+		plot lat,long:
+		http://www.darrinward.com/lat-long/?id=1064297
+		Elevation: 60
+		Latitude: 38º32'8N / 38.535694
+		Longitude: -121º46'35W / -121.776360
+		38.535694,-121.776360
+
 visalia station 33 - inactive 93277,8,9; 93290,1,2
 	86,169,203 are alternatives, visalia is near/north of tulare on the 99
  	86 lindcove: 93286 , 93221 
