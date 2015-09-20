@@ -199,8 +199,8 @@ def main():
                    if 'Date' not in ele or 'ZipCodes' not in ele:
                        continue
                    #Bug in CIMIS API call for spatial for zip 93766 returns today's date as well
-                   if ele['ZipCodes'] == '93766' and ele['Date'] == str(date.today()):
-                       #print 'CIMIS Bug for 93766'
+                   if ele['Date'] == str(date.today()):
+                       #print 'CIMIS Bug for at least these zips: 93766 93662'
                        continue
         
                    output_str += ele['Date']+','
