@@ -2,27 +2,6 @@ curl -v "http://et.water.ca.gov/api/data?appKey=0e1a4d1a-347c-40af-b811-a14958a8
 
 curl -v "http://et.water.ca.gov/api/data?appKey=0e1a4d1a-347c-40af-b811-a14958a8eba8&targets=93117&startDate=2015-07-01&endDate=2015-07-01"
 
-requested by Stan
-fresno station 1 - inactive
-	station 80 is active, using it instead
-davis station 6 - active
-	9/19/15 - make sure we are using the right one
-		convert dec to lat,long:
-		http://stevemorse.org/jcal/dms.html
-		plot lat,long:
-		http://www.darrinward.com/lat-long/?id=1064297
-		Elevation: 60
-		Latitude: 38º32'8N / 38.535694
-		Longitude: -121º46'35W / -121.776360
-		38.535694,-121.776360
-
-visalia station 33 - inactive 93277,8,9; 93290,1,2
-	86,169,203 are alternatives, visalia is near/north of tulare on the 99
- 	86 lindcove: 93286 , 93221 
-	169: porterville: 93270 , 93267 , 93258 , 93257 , 93247 , 93218 
-others: new cuyama - covered by cuyama 88
-
-93109,93199,93117,93254,93460,93458,95618,95694,95620,93766,93662
 -----------------------
 http://et.water.ca.gov/Rest/Index
 http://www.cimis.water.ca.gov/Stations.aspx
