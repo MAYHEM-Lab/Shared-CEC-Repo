@@ -1,4 +1,4 @@
-import psycopg2,sys
+import psycopg2,sys,json
 
 '''
 1)	Configure the system to have data for the same area
@@ -29,12 +29,25 @@ zip: 95616
 zips = '93221,95616,93710'
 stations = '86,169,6,80'
 
+#read in the credentials (service and secret) from simple json file
+try:
+    with open('creds.json') as data_file:
+        data = json.load(data_file)
+        creds_db = data['db']
+        creds_user = data['user']
+        creds_pwd = data['password']
+        creds_ip = data['IP']
+        creds_port = data['port']
+except:
+    print 'Error accessing creds.json file or with its file format.  It must contain the IP, port, login, and password and be in the same directory as this program.'
+    sys.exit(1)
+
 params = {
-  'database': 'gsn',
-  'user': 'gsn',
-  'password': 'gsnpassword',
-  'host': '128.111.84.220',
-  'port': 5432
+  'database': creds_db,
+  'user': creds_user,
+  'password': creds_pwd,
+  'host': creds_ip,
+  'port': creds_port
 }
 scstable = 'cimis_scs5'
 wsntable = 'cimis_wsn4'
