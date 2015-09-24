@@ -1,0 +1,12 @@
+{
+  "db":"XXX",
+  "user":"XXX",
+  "password":"XXX",
+  "IP":"XXX",
+  "port":"XXX",
+  "scs_tablename":"cimis_scsX",
+  "wsn_tablename":"cimis_wsnX",
+  "wsnhr_tablename":"cimis_wsnhrX",
+  "spatial_csv_fname":"scs.csv",
+  "station_csv_fname":"wsn.csv"
+}
