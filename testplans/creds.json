@@ -6,5 +6,5 @@
   "port":"XXX",
   "scs_tablename":"cimis_scsX",
   "wsn_tablename":"cimis_wsnX",
-  "wsnhr_tablename":"cimis_wsnhrX",
+  "wsnhr_tablename":"cimis_wsnhrX"
 }

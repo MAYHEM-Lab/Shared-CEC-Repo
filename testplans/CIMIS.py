@@ -1,4 +1,10 @@
 import psycopg2,sys,json
+'''
+Steps for using this test:
+1) fill in creds.json with the db name, db username, db user password, IP, and port of the UCSB CEC cloud.  Details on these values can be found here: https://docs.google.com/document/d/1pLy9exK_w0Rf9pWjBi6xIHS8a5IRQhhoGuzbRZU11zM/edit
+2) Also in this file (creds.json) modify the values for the table names: scs_tablename, wsn_tablename, and wsnhr_tablename. Details on these values can be found here: https://docs.google.com/document/d/17r06koVTgnMili2JgptbuHoWTBT9SwBv9LzPh6G68GU/edit
+3) Run via python CIMIS.py
+'''
 
 '''
 1)	Configure the system to have data for the same area
@@ -38,8 +44,12 @@ try:
         creds_pwd = data['password']
         creds_ip = data['IP']
         creds_port = data['port']
+        creds_scs = data['scs_tablename']
+        creds_wsn = data['wsn_tablename']
+        creds_wsnhr = data['wsnhr_tablename']
 except:
     print 'Error accessing creds.json file or with its file format.  It must contain the IP, port, login, and password and be in the same directory as this program.'
+    print '0/5 tests passed'
     sys.exit(1)
 
 params = {
@@ -47,17 +57,29 @@ params = {
   'user': creds_user,
   'password': creds_pwd,
   'host': creds_ip,
-  'port': creds_port
+  'port': creds_port,
 }
-scstable = 'cimis_scs5'
-wsntable = 'cimis_wsn4'
-wsnhrtable = 'cimis_wsnhr4'
-conn = psycopg2.connect(**params)
+scstable = creds_scs
+wsntable = creds_wsn
+wsnhrtable = creds_wsnhr
+
+#access remote GSN database on UCSB CEC Cloud
+conn = None
+try:
+    conn = psycopg2.connect(**params)
+except:
+    print 'Unable to connect to the remote GSN database on the UCSB CEC Cloud'
+    print 'Check your settings in creds.json'
+    print params
+    print '0/5 tests passed'
+    sys.exit(1)
+
 cur = conn.cursor()
 tablename = scstable
 retn = cur.execute('SELECT * FROM {0}'.format(tablename))
 if cur is None:
     print 'cursor is None: {0} contains no data'.format(tablename)
+    print '0/5 tests passed'
     sys.exit(1)
 for row in cur:
     print row
