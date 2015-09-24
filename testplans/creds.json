@@ -1,7 +1,10 @@
 {
   "db":"XXX",
-  "user":"XXX"
-  "password":"XXX"
-  "IP":"XXX"
-  "port":"XXX"
+  "user":"XXX",
+  "password":"XXX",
+  "IP":"XXX",
+  "port":"XXX",
+  "scs_tablename":"cimis_scsX",
+  "wsn_tablename":"cimis_wsnX",
+  "wsnhr_tablename":"cimis_wsnhrX",
 }
