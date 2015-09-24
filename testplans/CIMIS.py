@@ -111,7 +111,8 @@ sql = "SELECT {cols} FROM {tab} WHERE to_date({datecol},'YYYY-MM-DD')=to_date('{
 try: 
     retn = cur.execute(sql)
 except:
-    print 'Error in SQL: {0}'.format(sql)
+    print 'Error in SQL'
+    print sql
     print 'Test {0}/{1} failed. Not continuing.'.format(current_test,max_tests) 
     sys.exit(1)
 
@@ -139,7 +140,8 @@ sql = "SELECT {cols} FROM {tab} WHERE to_date({datecol},'YYYY-MM-DD')=to_date('{
 try: 
     retn = cur.execute(sql)
 except:
-    print 'Error in SQL: {0}'.format(sql)
+    print 'Error in SQL'
+    print sql
     print 'Test {0}/{1} failed. Not continuing.'.format(current_test,max_tests) 
     sys.exit(1)
 
@@ -167,7 +169,8 @@ sql = "SELECT count(*) FROM {tab} WHERE (to_date({datecol},'YYYY-MM-DD')>=to_dat
 try: 
     retn = cur.execute(sql)
 except:
-    print 'Error in SQL: {0}'.format(sql)
+    print 'Error in SQL'
+    print sql
     print 'Test {0}/{1} failed. Not continuing.'.format(current_test,max_tests) 
     sys.exit(1)
 
@@ -206,7 +209,8 @@ sql = "SELECT count(*) FROM {tab} WHERE (to_date({datecol},'YYYY-MM-DD')>=to_dat
 try: 
     retn = cur.execute(sql)
 except:
-    print 'Error in SQL: {0}'.format(sql)
+    print 'Error in SQL'
+    print sql
     print 'Test {0}/{1} failed.'.format(current_test,max_tests) 
     sys.exit(1)
 
@@ -254,7 +258,8 @@ sql = "SELECT {cols} FROM {tab} WHERE (to_date({datecol},'YYYY-MM-DD')>=to_date(
 try: 
     retn = cur.execute(sql)
 except:
-    print 'Error in SQL: {0}'.format(sql)
+    print 'Error in SQL'
+    print sql
     print 'Test {0}/{1} failed.'.format(current_test,max_tests) 
     sys.exit(1)
 
@@ -287,7 +292,8 @@ sql = "SELECT {cols} FROM {tab} WHERE (to_date({datecol},'YYYY-MM-DD')>=to_date(
 try: 
     retn = cur.execute(sql)
 except:
-    print 'Error in SQL: {0}'.format(sql)
+    print 'Error in SQL'
+    print sql
     print 'Test {0}/{1} failed.'.format(current_test,max_tests) 
     sys.exit(1)
 

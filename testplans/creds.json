@@ -8,5 +8,12 @@
   "wsn_tablename":"cimis_wsnX",
   "wsnhr_tablename":"cimis_wsnhrX",
   "spatial_csv_fname":"scs.csv",
-  "station_csv_fname":"wsn.csv"
+  "station_csv_fname":"wsn.csv",
+
+  "tule75_tablename":"tule_X",
+  "tule76_tablename":"tule_X",
+  "tule78_tablename":"tule_X",
+  "tule75_csv_fname":"75.csv",
+  "tule76_csv_fname":"76.csv",
+  "tule78_csv_fname":"78.csv"
 }
