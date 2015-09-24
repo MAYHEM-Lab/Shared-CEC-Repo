@@ -39,7 +39,7 @@ zip: 93221
 "CIMIS 6",38.5357723817152,-121.776633863283
 zip: 95616
 "CIMIS 80",36.8197469944076,-119.744297433601
-zip: 95616
+zip: 95710
 '''
 max_zips = 3 #this much match number of zip variables below
 zip1 = 93221
