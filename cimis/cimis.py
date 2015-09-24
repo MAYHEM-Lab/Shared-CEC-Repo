@@ -165,10 +165,11 @@ def main():
             #2) run by zip request spatial data
             header = 'day-asce-eto,day-asce-etr,day-sol-rad-avg'
             zips_some_covered_by_same_stations = '93109,93199,93117,93254,93460,93458,95618,95694,95620,93766,93662'
-            zips = '93109,93254,93270,93286,93460,93458,95618,95694,95620,93728,93662,93274,93230,95616,93710'
+            zips = '93109,93254,93270,93221,93286,93460,93458,95618,95694,95620,93728,93662,93274,93230,95616,93710'
             #tests:
             #zips = '93710,93726,93612,93703,93702,93727,93291,93277,93292,93274,95616,95694,95695,95620'
             #zips = '93274,93230,95616,95694,93460,93710'
+            #zips = '93221'
             payload = {'appKey': '0e1a4d1a-347c-40af-b811-a14958a8eba8', \
                 'targets': zips, 'dataItems':header, 'startDate':startd, \
                 'endDate':endd, 'prioritizeSCS':'Y' \
