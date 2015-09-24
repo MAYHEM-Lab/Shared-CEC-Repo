@@ -13,3 +13,7 @@ California Energy Commission.
 
 3) Further details can be found in our monthly reports (available upon request and sent to the team at the start of every month).
 
+## Basic Environment Settings that are required
+yum install python-psycopg2
+<br>pip install --upgrade pip
+
