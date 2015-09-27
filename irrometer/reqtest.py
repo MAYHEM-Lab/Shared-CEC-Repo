@@ -4,7 +4,8 @@ from datetime import datetime, timedelta
 
 def main():
     '''
-    Acquire data from the sensors in a SensMit Mesh.
+    Acquire data from the sensors in a SensMit Mesh: sample queries
+    EX: python reqtest.py APIKEY
     '''
 
     parser = argparse.ArgumentParser(description='Testfarm SensMit/Irrometer Access')
@@ -43,8 +44,16 @@ def main():
         print 'Accessing API: {0}'.format(r.url)
         print 'result: {0}\n'.format(r.text)
 
-        #update sesmit_id with a valid ID (680 will work for demo account)
-        sesmit_id = 680
+        #update sesmit_id with a valid ID (681 will work for demo account)
+        sesmit_id = 681
+        url = 'http://www.sensmitweb.com/api/v1/sensmits/{0}'.format(sesmit_id)
+        payload = {}
+        r = requests.get(url, headers=header, params=payload)
+        print 'Accessing API: {0}'.format(r.url)
+        print 'result: {0}\n'.format(r.text)
+
+        #update sesmit_id with a valid ID (682 will work for demo account)
+        sesmit_id = 682
         url = 'http://www.sensmitweb.com/api/v1/sensmits/{0}'.format(sesmit_id)
         payload = {}
         r = requests.get(url, headers=header, params=payload)
