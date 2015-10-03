@@ -1,8 +1,7 @@
 import requests, json, os, sys, argparse
 from datetime import datetime, date, timedelta
 
-#http://www.python-requests.org/en/latest/
-#r = requests.get('https://api.github.com/user', auth=('user', 'pass'))
+apikey = 'XXX'
 
 ###########################
 def main():
@@ -10,7 +9,6 @@ def main():
     parser = argparse.ArgumentParser(description='Make/process Cimis API calls')
     parser.add_argument('start',action='store',help='start date YYYY-MM-DD')
     parser.add_argument('end',action='store',help='end date YYYY-MM-DD')
-    #parser.add_argument('dbname',action='store',help='SQLite3 database name')
     parser.add_argument('--daily_wsn',action='store', default=None,
         help='Output daily WSN: Give filename if True, else omit arg')
     parser.add_argument('--daily_scs',action='store',default=None,
@@ -53,7 +51,7 @@ def main():
             #1 and 33 show inactive here but Stan requested: http://www.cimis.water.ca.gov/Stations.aspx
             #replacing 1 with 80, 33 with 86,169
             stations = '6,39,64,80,86,88,94,107,121,139,165,169,230'
-            payload = {'appKey': '0e1a4d1a-347c-40af-b811-a14958a8eba8', \
+            payload = {'appKey': apikey, \
                 'targets': stations, 'dataItems':header, 'startDate':startd, \
                 'endDate':endd \
                 }
@@ -170,7 +168,7 @@ def main():
             #zips = '93710,93726,93612,93703,93702,93727,93291,93277,93292,93274,95616,95694,95695,95620'
             #zips = '93274,93230,95616,95694,93460,93710'
             #zips = '93221'
-            payload = {'appKey': '0e1a4d1a-347c-40af-b811-a14958a8eba8', \
+            payload = {'appKey': apikey, \
                 'targets': zips, 'dataItems':header, 'startDate':startd, \
                 'endDate':endd, 'prioritizeSCS':'Y' \
                 }
@@ -229,7 +227,7 @@ def main():
             #1 and 33 show inactive here but Stan requested: http://www.cimis.water.ca.gov/Stations.aspx
             #replacing 1 with 80, 33 with 86,169
             stations = '6,39,64,80,86,88,94,107,121,139,165,169,230'
-            payload = {'appKey': '0e1a4d1a-347c-40af-b811-a14958a8eba8', \
+            payload = {'appKey': apikey, \
                 'targets': stations, 'dataItems':header, 'startDate':startd, \
                 'endDate':endd \
                 }
