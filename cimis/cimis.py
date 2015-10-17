@@ -2,10 +2,10 @@ import requests, json, os, sys, argparse
 from datetime import datetime, date, timedelta
 
 apikey = 'XXX'
+DEBUG = False
 
 ###########################
 def main():
-    #summarize all cols in all tables in a db:
     parser = argparse.ArgumentParser(description='Make/process Cimis API calls')
     parser.add_argument('start',action='store',help='start date YYYY-MM-DD')
     parser.add_argument('end',action='store',help='end date YYYY-MM-DD')
@@ -47,7 +47,7 @@ def main():
     
         if args.daily_wsn is not None:
             #1) by day run by station, request all but spatial data
-            header = 'day-asce-eto,day-asce-etr,day-precip,day-sol-rad-avg,day-vap-pres-avg,day-air-tmp-max,day-air-tmp-min,day-air-tmp-avg,day-rel-hum-max,day-rel-hum-min,day-rel-hum-avg,day-dew-pnt,day-wind-spd-avg,day-wind-run,day-soil-tmp-avg,day-soil-tmp-min,day-soil-tmp-max,day-eto'
+            header = 'day-eto,day-asce-eto,day-asce-etr,day-precip,day-sol-rad-avg,day-vap-pres-avg,day-air-tmp-min,day-air-tmp-max,day-air-tmp-avg,day-rel-hum-min,day-rel-hum-max,day-rel-hum-avg,day-dew-pnt,day-wind-spd-avg,day-wind-run,day-soil-tmp-min,day-soil-tmp-max,day-soil-tmp-avg'
             #1 and 33 show inactive here but Stan requested: http://www.cimis.water.ca.gov/Stations.aspx
             #replacing 1 with 80, 33 with 86,169
             stations = '6,39,64,80,86,88,94,107,121,139,165,169,230'
@@ -56,6 +56,8 @@ def main():
                 'endDate':endd \
                 }
             req = None
+            if DEBUG:
+                print payload
             try:
                 req = s.get(url,params=payload)
             except requests.exceptions.RequestException as e:   
@@ -161,7 +163,7 @@ def main():
         
         if args.daily_scs is not None:
             #2) run by zip request spatial data
-            header = 'day-asce-eto,day-asce-etr,day-sol-rad-avg'
+            header = 'day-asce-eto,day-asce-etr,day-wind-spd-avg,day-sol-rad-avg'
             zips_some_covered_by_same_stations = '93109,93199,93117,93254,93460,93458,95618,95694,95620,93766,93662'
             zips = '93109,93254,93270,93221,93286,93460,93458,95618,95694,95620,93728,93662,93274,93230,95616,93710'
             #tests:
@@ -173,6 +175,8 @@ def main():
                 'endDate':endd, 'prioritizeSCS':'Y' \
                 }
             req = None
+            if DEBUG:
+                print payload
             try:
                 req = s.get(url,params=payload)
             except requests.exceptions.RequestException as e:   
@@ -193,8 +197,8 @@ def main():
                output_str += header + '\n'
 
             if req.status_code != requests.codes.ok:
-               #3 + 1(zips) -1's here to indicate error for all stations on this date
-               output_str += startd+',-1,-1,-1,-1\n'
+               #4 + 1(zips) -1's here to indicate error for all stations on this date
+               output_str += startd+',-1,-1,-1,-1,-1\n'
             else:
                 for ele in ent['Data']['Providers'][0]['Records']:
                    if 'Date' not in ele or 'ZipCodes' not in ele:
@@ -214,6 +218,10 @@ def main():
                        output_str += '-1,'  #always produces a None value
                    else:
                        output_str += ele['DayAsceEtr']['Value']+','
+                   if 'DayWindSpdAvg' not in ele or ele['DayWindSpdAvg']['Value'] is None:
+                       output_str += '-1,'  #always produces a None value
+                   else:
+                       output_str += ele['DayWindSpdAvg']['Value']+','
                    if ele['DaySolRadAvg']['Value'] is None:
                        output_str += '-1\n'  #last in csv line, omitting comma
                    else:
@@ -232,6 +240,8 @@ def main():
                 'endDate':endd \
                 }
             req = None
+            if DEBUG:
+                print payload
             try:
                 req = s.get(url,params=payload)
             except requests.exceptions.RequestException as e:   
