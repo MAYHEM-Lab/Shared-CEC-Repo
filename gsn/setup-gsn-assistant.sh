@@ -8,15 +8,46 @@ echo "Starting cloud-init..." >> ~/vagrant/install.log
 #make_sudo.sh
 read -d '' String0 <<"EOF"
 #!/bin/sh
-# Add ec2-user to sudoers list if not present
-grep ec2-user /etc/sudoers
+# Add gsn to sudoers list if not present
+grep gsn /etc/sudoers
 if [ $? -eq 1 ]
 then
-        echo "ec2-user ALL=(ALL)       NOPASSWD: ALL" >> /etc/sudoers
+        echo "gsn ALL=(ALL)       NOPASSWD: ALL" >> /etc/sudoers
 fi
 EOF
 
 echo "${String0}" >> ~/vagrant/make_sudo.sh
+
+
+#restart.sh
+read -d '' Script <<"EOF"
+#!/bin/bash
+file="/root/vagrant/bootflag"
+if [ -f "$file" ]
+then
+    su - postgres -c '/usr/pgsql-9.4/bin/pg_ctl  -D /opt/gsn_data -l logfile start'
+    if [ $? -eq 0 ]
+    then
+        echo "Started postgres service" >> /root/vagrant/install.log
+    fi
+    echo "Started postgres service" >> /root/vagrant/install.log
+    cd /opt/gsn/gsn
+    ant gsn
+    if [ $? -eq 0 ]
+    then
+        echo "Restarted gsn on reboot" >> /root/vagrant/install.log
+    fi
+    echo "Restarted gsn on reboot" >> /root/vagrant/install.log
+    export GSN_HOME=/opt/gsn/gsn
+    export GSN_DATA_DIR=${GSN_HOME}/data
+    cd ..
+    nohup gsn-assistant-1.0/bin/gsn-assistant -DapplyEvolutions.default=true &
+fi
+EOF
+
+echo "${Script}" >> ~/vagrant/restart.sh
+
+echo "sh /root/vagrant/restart.sh" >> /etc/rc.local
 
 
 #yum-update.sh
@@ -37,8 +68,8 @@ if [ $? -eq 0 ]
 then
     echo "Installed wget" >> ~/gsn-assist.log
 fi
-
-cd /home/ec2-user/
+su - gsn
+cd /opt/gsn/
 wget cs.ucsb.edu/~kylejorgensen/gsn-assistant-1.0.tgz
 if [ $? -eq 0 ]
 then
@@ -51,7 +82,7 @@ then
     echo "gsn assistant untarred" >> ~/gsn-assist.log
 fi
 
-export GSN_HOME=/home/ec2-user/gsn
+export GSN_HOME=/opt/gsn/gsn
 export GSN_DATA_DIR=${GSN_HOME}/data
 
 nohup gsn-assistant-1.0/bin/gsn-assistant -DapplyEvolutions.default=true &
@@ -72,21 +103,24 @@ package { "java-1.7.0-openjdk-devel":
 }
 
 
-user { 'ec2-user':
+user { 'gsn':
         ensure => present,
         password => '$6$50Ie13fe$PB7qhEATOWu4ugCEplwE271eZ9As3SJm9sprDIxPDYDxDcJ1/mtpMnxUbU5gTBnd9jo85wBgdWQMkDv01pgHd/',
         shell => "/bin/bash",
-        home => "/home/ec2-user",
+        home => "/opt/gsn",
         managehome => true,
 }
 
 exec { "ec2-sudo":
         command => "/bin/sh ~/vagrant/make_sudo.sh",
         logoutput => true,
-        require => [User["ec2-user"]],
+        require => [User["gsn"]],
 }
 
 
+file { "/root/vagrant/bootflag" :
+        ensure => "present",
+     }
 
 file { "/root/.m2" :
 	  ensure => "directory",
@@ -96,16 +130,17 @@ file { "/root/.m2" :
 file { "/root/.m2/repository":
        ensure => "link",
        owner  => "root",
-       target => "/home/ec2-user/gsn-jars/repository",
+       target => "/opt/gsn/gsn-jars/repository",
        require => [Exec["git-jar-clone"], File["/root/.m2"]] ,
 }
 
 exec { "git-jar-clone":
                 command => "/usr/bin/git clone https://github.com/MAYHEM-Lab/gsn-jars.git",
-                creates => "/home/ec2-user/gsn-jars",
-		cwd	=> "/home/ec2-user",
+                creates => "/opt/gsn/gsn-jars",
+		cwd	=> "/opt/gsn",
                 logoutput => true,
-                require => [Package["git"], Class["git"], User["ec2-user"]],
+                user => 'gsn',
+                require => [Package["git"], Class["git"], User["gsn"]],
 }
 
 package {"ant":
@@ -119,16 +154,23 @@ class git {
         package { "git":
                   ensure => installed,
         }
-        file { "/home/ec2-user" :
+        file { "/home/gsn" :
                 ensure => present,
-		require => User["ec2-user"],
+		    require => User["gsn"],
         }
+
+        file { "/opt/gsn":
+            ensure => "directory",
+            owner => "gsn",
+            mode => "777",
+        }   
 
         exec { "git-clone":
                 command => "/usr/bin/git clone -b gsn-assistant-compatible https://github.com/UCSB-CS-RACELab/gsn.git gsn",
-		cwd     => "/home/ec2-user/",
-                creates => "/home/ec2-user/gsn",
-                require => [Package["git"], File["/home/ec2-user/"], User["ec2-user"]],
+		cwd     => "/opt/gsn/",
+                creates => "/opt/gsn/gsn",
+                user => 'gsn',
+                require => [Package["git"], File["/opt/gsn/"], User["gsn"]],
         }
 }
 
@@ -193,22 +235,23 @@ exec { "setup-postgres":
 }
 
 #start GSN
-file { "/home/ec2-user/gsn/conf/gsn.xml":
+file { "/opt/gsn/gsn/conf/gsn.xml":
         ensure => present,
         source => "/root/vagrant/gsn.xml",
-        require => [Package["postgresql94-server"], Exec["setup-postgres"], Class["git"], User["ec2-user"]],
+        require => [Package["postgresql94-server"], Exec["setup-postgres"], Class["git"], User["gsn"]],
 }
 
 exec { "ant":
-        cwd     => "/home/ec2-user/gsn",
+        cwd     => "/opt/gsn/gsn",
     command => "/usr/bin/ant",
         timeout => 6000,
         logoutput => true,
-    require => [Package['ant'], Exec["setup-postgres"], File["/home/ec2-user/gsn/conf/gsn.xml"], Exec["git-jar-clone"]],
+        user => 'gsn',
+    require => [Package['ant'], Exec["setup-postgres"], File["/opt/gsn/gsn/conf/gsn.xml"], Exec["git-jar-clone"]],
 }
 
 exec { "ant-gsn":
-        cwd     => "/home/ec2-user/gsn",
+        cwd     => "/opt/gsn/gsn",
     command => "/usr/bin/ant gsn",
         logoutput => true,
     require => [Package["postgresql94-server"], Class["git"], Exec['ant']],
@@ -260,35 +303,8 @@ read -d '' String3 <<"EOF"
    <zmq-enable>false</zmq-enable>
    <zmqproxy>22022</zmqproxy>
    <zmqmeta>22023</zmqmeta>
-
-
-<!-- SSL Support, Optional -->
-<!--
-   <ssl-port>8443</ssl-port>
-   <ssl-key-store-password>changeit</ssl-key-store-password>
-   <ssl-key-password>changeit</ssl-key-password>
--->
-<!--
-   <ssl-port>8443</ssl-port>
-   <ssl-key-store-password>/home/ivo/.keystore</ssl-key-store-password>
-   <ssl-key-password>password</ssl-key-password>
--->
-<access-control>true</access-control>
-<!-- Main Storage Database, Mandatory -->
-<!-- <storage user="sa" password="" driver="org.h2.Driver" url="jdbc:h2:mem:gsn_mem_db" />   -->
-<!--<storage user="sa" password="" driver="org.h2.Driver" url="jdbc:h2:file:./GsnMemDb" />-->
-<!--  <storage user="sa" password="" driver="org.h2.Driver" url="jdbc:h2:~/GsnMemDb;AUTO_SERVER=TRUE" />-->
- <!-- <storage user="root" password="root" driver="com.mysql.jdbc.Driver" url="jdbc:mysql://localhost/gsn" />  -->
-<!-- <storage user="gsn" password="gsn" driver="net.sourceforge.jtds.jdbc.Driver" url="jdbc:jtds:sqlserver://192.168.51.14:12345/gsn;cachemetadata=true;prepareSQL=3" />-->
-  <storage user="gsn" password="gsnpassword" driver="org.postgresql.Driver" url="jdbc:postgresql://localhost/gsn" /> -->
-<!-- <storage user="gsn" password="gsn" driver="oracle.jdbc.driver.OracleDriver" url="jdbc:oracle:thin:@localhost:1521" /> -->
-
-<!-- Processing Database, Optional. If not specified, the processing is implemented using the Main Storage Database specified above  -->
-<!-- 
-   <sliding>
-<storage user="sa" password="" driver="org.h2.Driver" url="jdbc:h2:mem:sliding;DB_CLOSE_DELAY=-1" /
-   </sliding> -->
-
+   <access-control>true</access-control>
+   <storage user="gsn" password="gsnpassword" driver="org.postgresql.Driver" url="jdbc:postgresql://localhost/gsn" /> -->
 </sensor-server>
 EOF
 
