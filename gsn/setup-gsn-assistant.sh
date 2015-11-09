@@ -31,23 +31,21 @@ then
         echo "Started postgres service" >> /root/vagrant/install.log
     fi
     echo "Started postgres service" >> /root/vagrant/install.log
+    rm -rf /opt/gsn/gsn-assistant-1.0/RUNNING_PID
+    su - gsn -c '/bin/bash -c "
     cd /opt/gsn/gsn
     ant gsn
-    if [ $? -eq 0 ]
-    then
-        echo "Restarted gsn on reboot" >> /root/vagrant/install.log
-    fi
-    echo "Restarted gsn on reboot" >> /root/vagrant/install.log
     export GSN_HOME=/opt/gsn/gsn
-    export GSN_DATA_DIR=${GSN_HOME}/data
+    export GSN_DATA_DIR=/opt/gsn/gsn/data
     cd ..
-    nohup gsn-assistant-1.0/bin/gsn-assistant -DapplyEvolutions.default=true &
+    nohup gsn-assistant-1.0/bin/gsn-assistant -DapplyEvolutions.default=true &"'
 fi
 EOF
 
 echo "${Script}" >> ~/vagrant/restart.sh
 
-echo "sh /root/vagrant/restart.sh" >> /etc/rc.local
+echo  "sh /root/vagrant/restart.sh" >> /etc/rc.local
+
 
 
 #yum-update.sh
@@ -82,10 +80,12 @@ then
     echo "gsn assistant untarred" >> ~/gsn-assist.log
 fi
 
+chown gsn:gsn -R /opt/gsn/gsn-assistant-1.0
+su - gsn -c '/bin/bash -c "
 export GSN_HOME=/opt/gsn/gsn
 export GSN_DATA_DIR=${GSN_HOME}/data
 
-nohup gsn-assistant-1.0/bin/gsn-assistant -DapplyEvolutions.default=true &
+nohup gsn-assistant-1.0/bin/gsn-assistant -DapplyEvolutions.default=true &"'
 EOF
 
 echo "${String8}" >> ~/vagrant/startgsn-assistant.sh
@@ -107,7 +107,7 @@ user { 'gsn':
         ensure => present,
         password => '$6$50Ie13fe$PB7qhEATOWu4ugCEplwE271eZ9As3SJm9sprDIxPDYDxDcJ1/mtpMnxUbU5gTBnd9jo85wBgdWQMkDv01pgHd/',
         shell => "/bin/bash",
-        home => "/opt/gsn",
+        home => "/home/gsn",
         managehome => true,
 }
 
@@ -238,8 +238,11 @@ exec { "setup-postgres":
 file { "/opt/gsn/gsn/conf/gsn.xml":
         ensure => present,
         source => "/root/vagrant/gsn.xml",
+        owner => "gsn",
         require => [Package["postgresql94-server"], Exec["setup-postgres"], Class["git"], User["gsn"]],
 }
+
+
 
 exec { "ant":
         cwd     => "/opt/gsn/gsn",
@@ -252,8 +255,9 @@ exec { "ant":
 
 exec { "ant-gsn":
         cwd     => "/opt/gsn/gsn",
-    command => "/usr/bin/ant gsn",
+        command => "/usr/bin/ant gsn",
         logoutput => true,
+        user => 'gsn',
     require => [Package["postgresql94-server"], Class["git"], Exec['ant']],
 }
 
